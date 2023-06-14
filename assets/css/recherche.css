@@ -1,0 +1,49 @@
+#result {  
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px; /* Ajustez la hauteur maximale selon vos besoins */
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 2;
+  
+  }
+  
+  .search-results {
+    position: absolute;
+    top: calc(100% + 10px); /* Ajustez la valeur (par exemple, 10px) pour définir l'espace entre la barre de recherche et la liste de résultats */
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 2;
+  }
+  form {
+    position: relative;
+  }    
+  
+  .even {
+    background-color: #f2f2f2; /* Couleur de fond pour les résultats pairs */
+  }
+  
+  .odd {
+    background-color: #ffffff; /* Couleur de fond pour les résultats impairs */
+  }
+  
+  #result ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  #result ul li {
+      padding: 10px;
+      cursor: pointer;
+  }
+  
+  #result ul li:hover {
+      background-color: #f2f2f2;
+      border: 1px solid #ccc;
+  }
+  
